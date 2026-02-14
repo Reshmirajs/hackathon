@@ -177,6 +177,7 @@ export default function JournalPage() {
                         <div className="flex justify-between items-center mb-3">
                             <h3 className="font-semibold text-gray-800">Add YouTube Music</h3>
                             <button
+                            title="test"
                                 onClick={() => setShowYoutubePanel(false)}
                                 className="text-gray-500 hover:text-gray-700"
                             >
@@ -222,8 +223,9 @@ export default function JournalPage() {
             </div>
 
             {/* Footer / Instructions */}
-            <div className="mt-8 text-gray-400 text-xs text-center pb-8 animate-pulse">
-                Auto-saving to cloud...
+            <div className="mt-6 text-gray-400 text-xs text-center pb-8 space-y-1">
+                <p>Use the <strong>arrow buttons</strong> to flip pages • Draw, add text, images & shapes on canvas pages</p>
+                <p className="opacity-75">Auto-saving to cloud...</p>
             </div>
         </div>
     );
